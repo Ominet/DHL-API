@@ -52,6 +52,9 @@ Then, you need to edit the config/config.php file and provide your account id an
 return array(
     'id' => 'Your_DHL_ID',
     'pass' => 'Your_DHL_Password',
+    'shipperAccountNumber' => 'Your_Number',
+    'billingAccountNumber' => 'Your_Number',
+    'dutyAccountNumber' => 'Your_Number',
 );
 ```
 
